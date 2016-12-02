@@ -1,0 +1,43 @@
+html,body{
+    margin:0;padding:0;width:100%;height:100%;
+}
+.swiper-container{
+    width:100%;height:100%;background: palegreen;
+}
+.one{
+    background: #bbe1ee;
+}
+.two{
+    background: #409af7;
+}
+.two .title,.two .text,.three .title,.three .text{
+    color:#fff;
+}
+.three{
+    background: #fe4e4e;
+}
+.title{
+    width:7.5rem;font-size: 0.2812rem;color:#000;text-align: center;
+    margin-top: 0.8rem;
+}
+.ren{
+    width:7.5rem;height:5.15rem;
+    position: absolute;left: 0;top:2.38rem;z-index: 1;
+}
+img{
+    width:100%;height:100%;
+}
+.back{
+    width:7.5rem;height:6.17rem;
+    position: absolute;left: 0;top:1.87rem;
+}
+.text{
+    position: absolute;left: 0;bottom:1.85rem;right:0;margin:auto;
+}
+.text p{
+    text-align: center;font-size: 0.2109rem;text-align: center;
+}
+.text span{
+    font-size: 0.5624rem;font-weight: bold;text-align: center;margin:0 auto;display: block;
+    margin-bottom: 0.6rem;
+}
